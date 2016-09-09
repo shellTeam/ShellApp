@@ -79,7 +79,7 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     {
         objCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: objCaptureSession)
         objCaptureVideoPreviewLayer?.videoGravity = AVLayerVideoGravityResizeAspectFill
-        let frame = CGRect(origin: CGPointZero, size: CGSize(width: view.layer.bounds.width, height: view.layer.bounds.height - 30))
+        let frame = CGRect(origin: CGPointZero, size: CGSize(width: view.layer.bounds.width, height: view.layer.bounds.height - 60))
         objCaptureVideoPreviewLayer?.frame = frame
         self.view.layer.addSublayer(objCaptureVideoPreviewLayer!)
         objCaptureSession?.startRunning()
