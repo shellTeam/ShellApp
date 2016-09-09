@@ -13,7 +13,7 @@ protocol BarcodeDelegate {
     func barcodeReaded(barcode:String)
 }
 
-class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
+class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate{
     @IBOutlet weak var lblQRCodeLabel: UILabel!
     @IBOutlet weak var lblQRCodeResult: UILabel!
     var objCaptureSession:AVCaptureSession?
