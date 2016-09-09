@@ -106,7 +106,7 @@ Close at 11PM</string>
                                 <size key="shadowOffset" width="0.0" height="-17"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FUx-oM-KnQ">
-                                <rect key="frame" x="238" y="109" width="124" height="105"/>
+                                <rect key="frame" x="238" y="85" width="124" height="105"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mFE-Ib-UAy">
                                         <rect key="frame" x="0.0" y="0.0" width="124" height="105"/>
@@ -141,17 +141,17 @@ Close at 11PM</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remaining Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXP-N4-bU8">
                                 <rect key="frame" x="223" y="265" width="154" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.1450980392" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="67.21 gal" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZo-HE-Cg0">
-                                <rect key="frame" x="200" y="250" width="200" height="167"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                                <rect key="frame" x="212" y="250" width="176" height="167"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
                                 <color key="textColor" red="0.87058823529999996" green="0.1137254902" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ydJ-ON-w1Y">
-                                <rect key="frame" x="180" y="212" width="240" height="30"/>
+                                <rect key="frame" x="180" y="220" width="240" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGN-cn-Cr6">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
@@ -179,7 +179,7 @@ Close at 11PM</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PPG: $2.43" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1e-Ic-ZDk">
                                 <rect key="frame" x="256" y="381" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.87450980389999999" green="0.1450980392" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EJj-1d-GPy">
@@ -219,14 +219,14 @@ Close at 11PM</string>
                             <constraint firstAttribute="trailing" secondItem="rA2-gc-lBP" secondAttribute="trailing" id="Mb7-wW-4yU"/>
                             <constraint firstItem="7jz-Ho-7WB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OhQ-GX-KXj"/>
                             <constraint firstAttribute="trailing" secondItem="EJj-1d-GPy" secondAttribute="trailing" id="Raz-Eh-S9K"/>
-                            <constraint firstItem="FUx-oM-KnQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="U5F-Hg-Uf2"/>
                             <constraint firstItem="fZo-HE-Cg0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WBf-rO-mpa"/>
                             <constraint firstItem="G1e-Ic-ZDk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a9k-6e-VW9"/>
                             <constraint firstAttribute="trailing" secondItem="7jz-Ho-7WB" secondAttribute="trailing" id="ddt-iK-N9c"/>
                             <constraint firstItem="kXP-N4-bU8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dkB-1M-V9d"/>
-                            <constraint firstItem="ydJ-ON-w1Y" firstAttribute="top" secondItem="rA2-gc-lBP" secondAttribute="bottom" constant="-38" id="eAd-MU-JEz"/>
+                            <constraint firstItem="ydJ-ON-w1Y" firstAttribute="top" secondItem="rA2-gc-lBP" secondAttribute="bottom" constant="-30" id="eAd-MU-JEz"/>
                             <constraint firstItem="EJj-1d-GPy" firstAttribute="top" secondItem="7jz-Ho-7WB" secondAttribute="bottom" constant="-2" id="gJe-as-qeN"/>
                             <constraint firstItem="Ra4-6d-0zr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gco-zu-2vf"/>
+                            <constraint firstItem="ydJ-ON-w1Y" firstAttribute="top" secondItem="FUx-oM-KnQ" secondAttribute="bottom" constant="30" id="iwY-UX-IRD"/>
                             <constraint firstItem="FUx-oM-KnQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uA5-HS-AQu"/>
                             <constraint firstItem="7jz-Ho-7WB" firstAttribute="top" secondItem="G1e-Ic-ZDk" secondAttribute="bottom" constant="15" id="w4b-jA-hID"/>
                             <constraint firstItem="Ra4-6d-0zr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wme-Qa-v1y"/>
