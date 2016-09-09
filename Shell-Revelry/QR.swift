@@ -30,6 +30,8 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         self.initializeQRView()
         self.view.bringSubviewToFront(lblQRCodeResult)
         self.view.bringSubviewToFront(lblQRCodeLabel)
+        self.navigationController?.navigationBarHidden = false
+
         
         // Do any additional setup after loading the view.
     }
