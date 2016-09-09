@@ -40,5 +40,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIApplicationShortcutitems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutitemIconType</key>
+			<string>UIApplicationShortcuticonTypeShare</string>
+			<key>UIApplicationShortcutitemSubtitle</key>
+			<string>Scan Nozzile</string>
+			<key>UIApplicationShortcutitemTitle</key>
+			<string>Add</string>
+			<key>UIApplicationShortcutitemType</key>
+			<string>Add</string>
+		</dict>
+	</array>
 </dict>
 </plist>
