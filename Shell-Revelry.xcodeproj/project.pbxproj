@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BE28CE1D82EB5500A31367 /* order.json in Resources */ = {isa = PBXBuildFile; fileRef = 04BE28CD1D82EB5500A31367 /* order.json */; };
+		04BE28D01D82EB6200A31367 /* RevelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE28CF1D82EB6200A31367 /* RevelAPI.swift */; };
 		04D1C8D41D828F2C00720488 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1C8D31D828F2C00720488 /* Constant.swift */; };
 		161084C21D82E06F004BABEF /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161084C11D82E06F004BABEF /* MapView.storyboard */; };
 		161084C41D82E07F004BABEF /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161084C31D82E07F004BABEF /* MapController.swift */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BE28CD1D82EB5500A31367 /* order.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = order.json; sourceTree = "<group>"; };
+		04BE28CF1D82EB6200A31367 /* RevelAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevelAPI.swift; sourceTree = "<group>"; };
 		04D1C8D31D828F2C00720488 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		161084C11D82E06F004BABEF /* MapView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
 		161084C31D82E07F004BABEF /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 				16A0FC5E1D826F2E0019E71B /* Info.plist */,
 				16A0FC561D826F2E0019E71B /* Shell_Revelry.xcdatamodeld */,
 				04D1C8D31D828F2C00720488 /* Constant.swift */,
+				04BE28CF1D82EB6200A31367 /* RevelAPI.swift */,
+				04BE28CD1D82EB5500A31367 /* order.json */,
 			);
 			path = "Shell-Revelry";
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 			files = (
 				16A0FC5D1D826F2E0019E71B /* LaunchScreen.storyboard in Resources */,
 				16A0FC5A1D826F2E0019E71B /* Assets.xcassets in Resources */,
+				04BE28CE1D82EB5500A31367 /* order.json in Resources */,
 				6EA5B3BF1D82C44D002F35B5 /* PumpScreen.storyboard in Resources */,
 				161084C21D82E06F004BABEF /* MapView.storyboard in Resources */,
 				16A0FC551D826F2E0019E71B /* Main.storyboard in Resources */,
@@ -456,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A0FC581D826F2E0019E71B /* Shell_Revelry.xcdatamodeld in Sources */,
+				04BE28D01D82EB6200A31367 /* RevelAPI.swift in Sources */,
 				161084C41D82E07F004BABEF /* MapController.swift in Sources */,
 				16A0FC521D826F2E0019E71B /* ViewController.swift in Sources */,
 				04D1C8D41D828F2C00720488 /* Constant.swift in Sources */,
