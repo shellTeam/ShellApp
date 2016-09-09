@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rA2-gc-lBP">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="250"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rA2-gc-lBP">
+                                <rect key="frame" x="0.0" y="7" width="600" height="250"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="sSy-0n-Hf1"/>
@@ -259,14 +259,14 @@ Close at 11PM</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QRCodeText:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teV-WG-ZHY">
-                                <rect key="frame" x="34" y="626" width="100" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teV-WG-ZHY">
+                                <rect key="frame" x="134" y="567" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No QRCode Text decteted" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sV-PV-i2y">
-                                <rect key="frame" x="142" y="626" width="201" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sV-PV-i2y">
+                                <rect key="frame" x="142" y="564" width="201" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -278,8 +278,7 @@ Close at 11PM</string>
                     <connections>
                         <outlet property="lblQRCodeLabel" destination="teV-WG-ZHY" id="4mR-8g-aBz"/>
                         <outlet property="lblQRCodeResult" destination="3sV-PV-i2y" id="2ym-3W-L6L"/>
-                        <segue destination="IbD-wR-WLe" kind="show" identifier="readyToPump" id="Mkb-ly-MxZ"/>
-                        <segue destination="IbD-wR-WLe" kind="showDetail" identifier="showPumpScreen" id="HJg-q2-xyI"/>
+                        <segue destination="jHl-Qd-aYA" kind="showDetail" identifier="showPumpScreen" id="4SZ-FT-TKv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="77I-We-Aox" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -304,21 +303,97 @@ Close at 11PM</string>
             </objects>
             <point key="canvasLocation" x="305" y="429"/>
         </scene>
-        <!--PumpScreen-->
-        <scene sceneID="P04-T7-r7u">
+        <!--View Controller-->
+        <scene sceneID="gBB-Cy-Lr9">
             <objects>
-                <viewControllerPlaceholder storyboardName="PumpScreen" id="IbD-wR-WLe" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OfL-ZB-87t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="jHl-Qd-aYA" customClass="ViewController" customModule="Shell_Revelry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sWs-Ov-74u"/>
+                        <viewControllerLayoutGuide type="bottom" id="CGO-ut-Kr9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4li-K9-hTQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2016-09-09 at 2.07.42 AM" translatesAutoresizingMaskIntoConstraints="NO" id="NfI-0E-uPa">
+                                <rect key="frame" x="225" y="150" width="137" height="107"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3q-Tb-l5N">
+                                <rect key="frame" x="0.0" y="536" width="600" height="70"/>
+                                <color key="backgroundColor" red="0.25401583709999997" green="0.25401583709999997" blue="0.25401583709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="302" id="bPl-AS-csm"/>
+                                    <constraint firstAttribute="height" constant="70" id="nZT-xG-Cgf"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="bPl-AS-csm"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="START" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6an-aJ-1G8">
+                                <rect key="frame" x="259" y="559" width="103" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="2P7-DV-efv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Keep phone away" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0D6-pq-Ioe">
+                                <rect key="frame" x="156" y="295" width="268" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="AvZ-hN-hhd"/>
+                                    <constraint firstAttribute="height" constant="34" id="xUG-iB-EjM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="0.32420814479999999" green="0.32420814479999999" blue="0.32420814479999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Make sure you are not using your phone while you are pumping" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZT-81-MLd">
+                                <rect key="frame" x="123" y="362" width="330" height="59"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.34409997170000001" green="0.34409997170000001" blue="0.34409997170000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79551376460000001" blue="0.049626229459999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="x3q-Tb-l5N" firstAttribute="leading" secondItem="4li-K9-hTQ" secondAttribute="leadingMargin" id="56a-c0-Ty8"/>
+                            <constraint firstItem="0D6-pq-Ioe" firstAttribute="trailing" secondItem="DZT-81-MLd" secondAttribute="trailing" id="681-88-ZcY"/>
+                            <constraint firstItem="6an-aJ-1G8" firstAttribute="centerX" secondItem="NfI-0E-uPa" secondAttribute="centerX" id="7Dw-B1-la0"/>
+                            <constraint firstItem="x3q-Tb-l5N" firstAttribute="leading" secondItem="4li-K9-hTQ" secondAttribute="leadingMargin" id="C5e-sS-GAU"/>
+                            <constraint firstItem="0D6-pq-Ioe" firstAttribute="leading" secondItem="4li-K9-hTQ" secondAttribute="leading" constant="28" id="K7K-mM-eq0"/>
+                            <constraint firstItem="NfI-0E-uPa" firstAttribute="leading" secondItem="4li-K9-hTQ" secondAttribute="leadingMargin" constant="70" id="KBw-0V-ZWX"/>
+                            <constraint firstItem="DZT-81-MLd" firstAttribute="top" secondItem="0D6-pq-Ioe" secondAttribute="bottom" constant="11" id="Lk7-lh-H0i"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="x3q-Tb-l5N" secondAttribute="bottom" id="PWR-4X-38d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="x3q-Tb-l5N" secondAttribute="trailing" id="Roq-eB-egC"/>
+                            <constraint firstItem="NfI-0E-uPa" firstAttribute="top" secondItem="sWs-Ov-74u" secondAttribute="bottom" constant="139" id="Usp-56-a7i"/>
+                            <constraint firstItem="0D6-pq-Ioe" firstAttribute="top" secondItem="NfI-0E-uPa" secondAttribute="bottom" constant="38" id="hEp-4Q-xyi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NfI-0E-uPa" secondAttribute="trailing" constant="70" id="hqn-Pt-YhA"/>
+                            <constraint firstItem="0D6-pq-Ioe" firstAttribute="leading" secondItem="DZT-81-MLd" secondAttribute="leading" id="ivD-hZ-m9v"/>
+                            <constraint firstAttribute="trailing" secondItem="x3q-Tb-l5N" secondAttribute="trailing" id="o63-2R-8Cc"/>
+                            <constraint firstItem="x3q-Tb-l5N" firstAttribute="leading" secondItem="4li-K9-hTQ" secondAttribute="leading" id="wc3-ac-nZE"/>
+                            <constraint firstAttribute="bottom" secondItem="6an-aJ-1G8" secondAttribute="bottom" constant="20" symbolic="YES" id="zgd-7G-Mce"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Roq-eB-egC"/>
+                                <exclude reference="56a-c0-Ty8"/>
+                                <exclude reference="C5e-sS-GAU"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LH3-Ei-VSA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2468.5" y="1163"/>
+            <point key="canvasLocation" x="2624" y="1449"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2016-09-09 at 2.07.42 AM" width="512" height="512"/>
         <image name="Shell_logo" width="829" height="768"/>
         <image name="Shellmate" width="122" height="18"/>
         <image name="turn-right-sign" width="512" height="512"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="HJg-q2-xyI"/>
-    </inferredMetricsTieBreakers>
 </document>
