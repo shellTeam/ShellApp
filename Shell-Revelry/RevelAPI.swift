@@ -16,7 +16,7 @@ class RevelAPI {
     let CUSTOMER = "/resources/Customer/?format=json"
     let CUSTOMER_GROUP = "/resources/CustomerGroup/?format=json"
     let CHECK_SYSTEM_SETTINGS = "https://teamb-hackathon.revelup.com/weborders/system_settings/?establishment=2"
-    
+    let SUBMIT_ORDER = "/specialresources/cart/submit/"
     let orderPath = NSBundle.mainBundle().pathForResource("order", ofType: "json")
     
     private var session = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
@@ -50,8 +50,25 @@ class RevelAPI {
         return nil
     }
     
-    func POST(json: [String:AnyObject]) {
+    func POST() {
+        let orderUrl = "\(BASE_URL)\(SUBMIT_ORDER)\(API_KEY)\(API_SECRET)"
         
+        let request = NSMutableURLRequest(URL: NSURL(string: orderUrl)!)
+        request.HTTPMethod = "POST"
+        request.cachePolicy = NSURLRequestCachePolicy.ReloadIgnoringCacheData
+        
+        if let json = loadJson() {
+            let data = NSKeyedArchiver.archivedDataWithRootObject(json)
+            task = session.uploadTaskWithRequest(request, fromData: data, completionHandler: { (postData: NSData?, response: NSURLResponse?, error: NSError?) in
+                print("Data:", postData, "Response", response, "Error", error)
+            })
+            task.resume()
+        }
+        
+    }
+    
+    func GET() -> [String:AnyObject] {
+        return [String:AnyObject]()
     }
     
     func request(url: String) {

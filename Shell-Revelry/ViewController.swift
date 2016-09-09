@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         self.navigationController?.navigationBarHidden = true
         
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let revelApi = RevelAPI()
+        revelApi.POST()
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,14 +7,14 @@
                                 {
                                 "modifier": 40,
                                 "modifier_cost": 0.5,
-                                "modifier_price": 1.48,
+                                "modifier_price": 1.5,
                                 "qty": 1,
-                                "qty_type": 2,
+                                "qty_type": 0,
                                 "admin_mod_key": null
                                 } ],
               "special_request": "",
               "price": 12,
-              "product": 432,
+              "product": 301,
               "product_name_override": "GreenPepper",
               "quantity": 1
               } ],
