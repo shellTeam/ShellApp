@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
+
+protocol BarcodeDelegate {
+    
+}
 
 class QR: UIViewController, BarcodeDelegate {
 
@@ -17,6 +22,9 @@ class QR: UIViewController, BarcodeDelegate {
 
         // Do any additional setup after loading the view.
     }
+    func barcodeReaded (barcode:String){
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -25,6 +33,10 @@ class QR: UIViewController, BarcodeDelegate {
     func barcodeIsReaded(barcode:String){
             print("barcode: \(barcode)")
         codeTextView.text = barcode
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let barCodeViewController: QR = segue.destinationViewController as! QR
+        barCodeViewController.delegate = self
     }
 
 }
