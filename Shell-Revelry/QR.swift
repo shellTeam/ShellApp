@@ -13,7 +13,7 @@ protocol BarcodeDelegate {
     func barcodeReaded(barcode:String)
 }
 
-class QR: UIViewController, BarcodeDelegate, AVCaptureMetadataOutputObjectsDelegate {
+class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     @IBOutlet weak var lblQRCodeLabel: UILabel!
     @IBOutlet weak var lblQRCodeResult: UILabel!
     var objCaptureSession:AVCaptureSession?
@@ -22,10 +22,12 @@ class QR: UIViewController, BarcodeDelegate, AVCaptureMetadataOutputObjectsDeleg
   
     
 
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureVideoCapture()
+        self.configureVideoCapture()
+        self.addVideoPreviewLayer()
+        self.initializeQRView()
 
         // Do any additional setup after loading the view.
     }
@@ -68,5 +70,37 @@ class QR: UIViewController, BarcodeDelegate, AVCaptureMetadataOutputObjectsDeleg
         objCaptureMetadataOutput.setMetadataObjectsDelegate(self, queue: dispatch_get_main_queue())
         objCaptureMetadataOutput.metadataObjectTypes = [AVMetadataObjectTypeQRCode]
     }
+    func addVideoPreviewLayer()
+    {
+        objCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: objCaptureSession)
+        objCaptureVideoPreviewLayer?.videoGravity = AVLayerVideoGravityResizeAspectFill
+        objCaptureVideoPreviewLayer?.frame = view.layer.bounds
+        self.view.layer.addSublayer(objCaptureVideoPreviewLayer!)
+        objCaptureSession?.startRunning()
+    }
+    func initializeQRView() {
+        vwQRCode = UIView()
+        vwQRCode?.layer.borderColor = UIColor.redColor().CGColor
+        vwQRCode?.layer.borderWidth = 5
+        self.view.addSubview(vwQRCode!)
+        self.view.bringSubviewToFront(vwQRCode!)
+    }
+    func captureOutput(captureOutput: AVCaptureOutput!, didOutputMetadataObjects metadataObjects: [AnyObject]!, fromConnection connection: AVCaptureConnection!) {
+        if metadataObjects == nil || metadataObjects.count == 0 {
+            vwQRCode?.frame = CGRectZero
+            lblQRCodeResult.text = "NO QRCode text detacted"
+            return
+        }
+        let objMetadataMachineReadableCodeObject = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
+        if objMetadataMachineReadableCodeObject.type == AVMetadataObjectTypeQRCode {
+            let objBarCode = objCaptureVideoPreviewLayer?.transformedMetadataObjectForMetadataObject(objMetadataMachineReadableCodeObject as AVMetadataMachineReadableCodeObject) as! AVMetadataMachineReadableCodeObject
+            vwQRCode?.frame = objBarCode.bounds;
+            if objMetadataMachineReadableCodeObject.stringValue != nil {
+                lblQRCodeResult.text = objMetadataMachineReadableCodeObject.stringValue
+            }
+        }
+    }
+    
+   
    
 }

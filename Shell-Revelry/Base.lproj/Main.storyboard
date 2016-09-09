@@ -74,7 +74,7 @@
         <!--QR-->
         <scene sceneID="6Ii-3z-QcW">
             <objects>
-                <viewController id="5Oq-zG-quF" customClass="QR" sceneMemberID="viewController">
+                <viewController id="5Oq-zG-quF" customClass="QR" customModule="Shell_Revelry" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hjF-lO-cKW"/>
                         <viewControllerLayoutGuide type="bottom" id="gRq-Cm-4t9"/>
