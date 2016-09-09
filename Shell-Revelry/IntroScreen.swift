@@ -13,7 +13,6 @@ import JSQSystemSoundPlayer
 
 class IntroScreen: ViewController {
     
-    @IBOutlet weak var stopWatchLabel: UILabel!
     @IBOutlet var RevelLogo: UIImageView!
     var startTime = NSTimeInterval()
     var timer = NSTimer()
