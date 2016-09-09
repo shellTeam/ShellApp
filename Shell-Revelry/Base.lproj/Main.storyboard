@@ -330,6 +330,9 @@ Close at 11PM</string>
                                         <exclude reference="bPl-AS-csm"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <segue destination="xV4-cM-TLf" kind="show" id="a50-LB-HFz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="START" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6an-aJ-1G8">
                                 <rect key="frame" x="259" y="559" width="103" height="21"/>
@@ -388,6 +391,24 @@ Close at 11PM</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LH3-Ei-VSA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2624" y="1449"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mjp-jS-T1o">
+            <objects>
+                <viewController id="xV4-cM-TLf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkh-5O-0ZP"/>
+                        <viewControllerLayoutGuide type="bottom" id="7qB-vQ-Lcx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S4H-fu-yEi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LFj-98-4FP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3430" y="1449"/>
         </scene>
     </scenes>
     <resources>
