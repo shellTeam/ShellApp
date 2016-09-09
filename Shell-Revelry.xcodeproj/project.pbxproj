@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A0FC501D826F2E0019E71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC4F1D826F2E0019E71B /* AppDelegate.swift */; };
+		16A0FC521D826F2E0019E71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC511D826F2E0019E71B /* ViewController.swift */; };
+		16A0FC551D826F2E0019E71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A0FC531D826F2E0019E71B /* Main.storyboard */; };
+		16A0FC581D826F2E0019E71B /* Shell_Revelry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC561D826F2E0019E71B /* Shell_Revelry.xcdatamodeld */; };
+		16A0FC5A1D826F2E0019E71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A0FC591D826F2E0019E71B /* Assets.xcassets */; };
+		16A0FC5D1D826F2E0019E71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A0FC5B1D826F2E0019E71B /* LaunchScreen.storyboard */; };
+		16A0FC681D826F2E0019E71B /* Shell_RevelryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC671D826F2E0019E71B /* Shell_RevelryTests.swift */; };
+		16A0FC731D826F2E0019E71B /* Shell_RevelryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC721D826F2E0019E71B /* Shell_RevelryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A0FC641D826F2E0019E71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A0FC441D826F2E0019E71B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A0FC4B1D826F2E0019E71B;
+			remoteInfo = "Shell-Revelry";
+		};
+		16A0FC6F1D826F2E0019E71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A0FC441D826F2E0019E71B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A0FC4B1D826F2E0019E71B;
+			remoteInfo = "Shell-Revelry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A0FC4C1D826F2E0019E71B /* Shell-Revelry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shell-Revelry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A0FC4F1D826F2E0019E71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16A0FC511D826F2E0019E71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16A0FC541D826F2E0019E71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16A0FC571D826F2E0019E71B /* Shell_Revelry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shell_Revelry.xcdatamodel; sourceTree = "<group>"; };
+		16A0FC591D826F2E0019E71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16A0FC5C1D826F2E0019E71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16A0FC5E1D826F2E0019E71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A0FC631D826F2E0019E71B /* Shell-RevelryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shell-RevelryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A0FC671D826F2E0019E71B /* Shell_RevelryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell_RevelryTests.swift; sourceTree = "<group>"; };
+		16A0FC691D826F2E0019E71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A0FC6E1D826F2E0019E71B /* Shell-RevelryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shell-RevelryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A0FC721D826F2E0019E71B /* Shell_RevelryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell_RevelryUITests.swift; sourceTree = "<group>"; };
+		16A0FC741D826F2E0019E71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A0FC491D826F2E0019E71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A0FC601D826F2E0019E71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A0FC6B1D826F2E0019E71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A0FC431D826F2E0019E71B = {
+			isa = PBXGroup;
+			children = (
+				16A0FC4E1D826F2E0019E71B /* Shell-Revelry */,
+				16A0FC661D826F2E0019E71B /* Shell-RevelryTests */,
+				16A0FC711D826F2E0019E71B /* Shell-RevelryUITests */,
+				16A0FC4D1D826F2E0019E71B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A0FC4D1D826F2E0019E71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A0FC4C1D826F2E0019E71B /* Shell-Revelry.app */,
+				16A0FC631D826F2E0019E71B /* Shell-RevelryTests.xctest */,
+				16A0FC6E1D826F2E0019E71B /* Shell-RevelryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A0FC4E1D826F2E0019E71B /* Shell-Revelry */ = {
+			isa = PBXGroup;
+			children = (
+				16A0FC4F1D826F2E0019E71B /* AppDelegate.swift */,
+				16A0FC511D826F2E0019E71B /* ViewController.swift */,
+				16A0FC531D826F2E0019E71B /* Main.storyboard */,
+				16A0FC591D826F2E0019E71B /* Assets.xcassets */,
+				16A0FC5B1D826F2E0019E71B /* LaunchScreen.storyboard */,
+				16A0FC5E1D826F2E0019E71B /* Info.plist */,
+				16A0FC561D826F2E0019E71B /* Shell_Revelry.xcdatamodeld */,
+			);
+			path = "Shell-Revelry";
+			sourceTree = "<group>";
+		};
+		16A0FC661D826F2E0019E71B /* Shell-RevelryTests */ = {
+			isa = PBXGroup;
+			children = (
+				16A0FC671D826F2E0019E71B /* Shell_RevelryTests.swift */,
+				16A0FC691D826F2E0019E71B /* Info.plist */,
+			);
+			path = "Shell-RevelryTests";
+			sourceTree = "<group>";
+		};
+		16A0FC711D826F2E0019E71B /* Shell-RevelryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16A0FC721D826F2E0019E71B /* Shell_RevelryUITests.swift */,
+				16A0FC741D826F2E0019E71B /* Info.plist */,
+			);
+			path = "Shell-RevelryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16A0FC4B1D826F2E0019E71B /* Shell-Revelry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A0FC771D826F2E0019E71B /* Build configuration list for PBXNativeTarget "Shell-Revelry" */;
+			buildPhases = (
+				16A0FC481D826F2E0019E71B /* Sources */,
+				16A0FC491D826F2E0019E71B /* Frameworks */,
+				16A0FC4A1D826F2E0019E71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shell-Revelry";
+			productName = "Shell-Revelry";
+			productReference = 16A0FC4C1D826F2E0019E71B /* Shell-Revelry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A0FC621D826F2E0019E71B /* Shell-RevelryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A0FC7A1D826F2E0019E71B /* Build configuration list for PBXNativeTarget "Shell-RevelryTests" */;
+			buildPhases = (
+				16A0FC5F1D826F2E0019E71B /* Sources */,
+				16A0FC601D826F2E0019E71B /* Frameworks */,
+				16A0FC611D826F2E0019E71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A0FC651D826F2E0019E71B /* PBXTargetDependency */,
+			);
+			name = "Shell-RevelryTests";
+			productName = "Shell-RevelryTests";
+			productReference = 16A0FC631D826F2E0019E71B /* Shell-RevelryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16A0FC6D1D826F2E0019E71B /* Shell-RevelryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A0FC7D1D826F2E0019E71B /* Build configuration list for PBXNativeTarget "Shell-RevelryUITests" */;
+			buildPhases = (
+				16A0FC6A1D826F2E0019E71B /* Sources */,
+				16A0FC6B1D826F2E0019E71B /* Frameworks */,
+				16A0FC6C1D826F2E0019E71B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A0FC701D826F2E0019E71B /* PBXTargetDependency */,
+			);
+			name = "Shell-RevelryUITests";
+			productName = "Shell-RevelryUITests";
+			productReference = 16A0FC6E1D826F2E0019E71B /* Shell-RevelryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A0FC441D826F2E0019E71B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John Montejano";
+				TargetAttributes = {
+					16A0FC4B1D826F2E0019E71B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					16A0FC621D826F2E0019E71B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16A0FC4B1D826F2E0019E71B;
+					};
+					16A0FC6D1D826F2E0019E71B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16A0FC4B1D826F2E0019E71B;
+					};
+				};
+			};
+			buildConfigurationList = 16A0FC471D826F2E0019E71B /* Build configuration list for PBXProject "Shell-Revelry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16A0FC431D826F2E0019E71B;
+			productRefGroup = 16A0FC4D1D826F2E0019E71B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A0FC4B1D826F2E0019E71B /* Shell-Revelry */,
+				16A0FC621D826F2E0019E71B /* Shell-RevelryTests */,
+				16A0FC6D1D826F2E0019E71B /* Shell-RevelryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A0FC4A1D826F2E0019E71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A0FC5D1D826F2E0019E71B /* LaunchScreen.storyboard in Resources */,
+				16A0FC5A1D826F2E0019E71B /* Assets.xcassets in Resources */,
+				16A0FC551D826F2E0019E71B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A0FC611D826F2E0019E71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A0FC6C1D826F2E0019E71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A0FC481D826F2E0019E71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A0FC581D826F2E0019E71B /* Shell_Revelry.xcdatamodeld in Sources */,
+				16A0FC521D826F2E0019E71B /* ViewController.swift in Sources */,
+				16A0FC501D826F2E0019E71B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A0FC5F1D826F2E0019E71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A0FC681D826F2E0019E71B /* Shell_RevelryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A0FC6A1D826F2E0019E71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A0FC731D826F2E0019E71B /* Shell_RevelryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A0FC651D826F2E0019E71B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A0FC4B1D826F2E0019E71B /* Shell-Revelry */;
+			targetProxy = 16A0FC641D826F2E0019E71B /* PBXContainerItemProxy */;
+		};
+		16A0FC701D826F2E0019E71B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A0FC4B1D826F2E0019E71B /* Shell-Revelry */;
+			targetProxy = 16A0FC6F1D826F2E0019E71B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16A0FC531D826F2E0019E71B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A0FC541D826F2E0019E71B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16A0FC5B1D826F2E0019E71B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A0FC5C1D826F2E0019E71B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16A0FC751D826F2E0019E71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16A0FC761D826F2E0019E71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16A0FC781D826F2E0019E71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shell-Revelry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.shell.Shell-Revelry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16A0FC791D826F2E0019E71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shell-Revelry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.shell.Shell-Revelry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16A0FC7B1D826F2E0019E71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shell-RevelryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.shell.Shell-RevelryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shell-Revelry.app/Shell-Revelry";
+			};
+			name = Debug;
+		};
+		16A0FC7C1D826F2E0019E71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shell-RevelryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.shell.Shell-RevelryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shell-Revelry.app/Shell-Revelry";
+			};
+			name = Release;
+		};
+		16A0FC7E1D826F2E0019E71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shell-RevelryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.shell.Shell-RevelryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shell-Revelry";
+			};
+			name = Debug;
+		};
+		16A0FC7F1D826F2E0019E71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shell-RevelryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.shell.Shell-RevelryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shell-Revelry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A0FC471D826F2E0019E71B /* Build configuration list for PBXProject "Shell-Revelry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A0FC751D826F2E0019E71B /* Debug */,
+				16A0FC761D826F2E0019E71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A0FC771D826F2E0019E71B /* Build configuration list for PBXNativeTarget "Shell-Revelry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A0FC781D826F2E0019E71B /* Debug */,
+				16A0FC791D826F2E0019E71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16A0FC7A1D826F2E0019E71B /* Build configuration list for PBXNativeTarget "Shell-RevelryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A0FC7B1D826F2E0019E71B /* Debug */,
+				16A0FC7C1D826F2E0019E71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16A0FC7D1D826F2E0019E71B /* Build configuration list for PBXNativeTarget "Shell-RevelryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A0FC7E1D826F2E0019E71B /* Debug */,
+				16A0FC7F1D826F2E0019E71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16A0FC561D826F2E0019E71B /* Shell_Revelry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16A0FC571D826F2E0019E71B /* Shell_Revelry.xcdatamodel */,
+			);
+			currentVersion = 16A0FC571D826F2E0019E71B /* Shell_Revelry.xcdatamodel */;
+			path = Shell_Revelry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16A0FC441D826F2E0019E71B /* Project object */;
+}
