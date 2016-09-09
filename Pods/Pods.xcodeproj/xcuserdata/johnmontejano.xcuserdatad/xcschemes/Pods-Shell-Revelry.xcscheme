@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D72DD9638E61EC2392D91CD3169F898"
+               BlueprintIdentifier = "02DF06B085F0E8F619553A4BAC11AC03"
                BuildableName = "Pods_Shell_Revelry.framework"
                BlueprintName = "Pods-Shell-Revelry"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D72DD9638E61EC2392D91CD3169F898"
+            BlueprintIdentifier = "02DF06B085F0E8F619553A4BAC11AC03"
             BuildableName = "Pods_Shell_Revelry.framework"
             BlueprintName = "Pods-Shell-Revelry"
             ReferencedContainer = "container:Pods.xcodeproj">
