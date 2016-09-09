@@ -59,8 +59,11 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             objCaptureDeviceInput = nil
         }
         if (error != nil) {
-            let alertView:UIAlertView = UIAlertView(title: "Device Error", message:"Device not Supported for this Application", delegate: nil, cancelButtonTitle: "Ok Done")
-            alertView.show()
+            let alert = UIAlertController(title: "Device Error", message: "Device not Supported for this Application", preferredStyle: .Alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+            presentViewController(alert, animated: true, completion: nil)
+//            let alertView:UIAlertView = UIAlertView(title: "Device Error", message:"Device not Supported for this Application", delegate: nil, cancelButtonTitle: "Ok Done")
+//            alertView.show()
             return
         }
         objCaptureSession = AVCaptureSession()
