@@ -13,40 +13,42 @@ protocol BarcodeDelegate {
     func barcodeReaded(barcode:String)
 }
 
-class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate{
+class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     @IBOutlet weak var lblQRCodeLabel: UILabel!
     @IBOutlet weak var lblQRCodeResult: UILabel!
     var objCaptureSession:AVCaptureSession?
     var objCaptureVideoPreviewLayer:AVCaptureVideoPreviewLayer?
     var vwQRCode:UIView?
-  
     
-
-   
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configureVideoCapture()
         self.addVideoPreviewLayer()
         self.initializeQRView()
-
+        self.view.bringSubviewToFront(lblQRCodeResult)
+        self.view.bringSubviewToFront(lblQRCodeLabel)
+        
         // Do any additional setup after loading the view.
     }
     func barcodeReaded (barcode:String){
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-//    func barcodeReaded(barcode:String){
-//            print("barcode: \(barcode)")
-//        codeTextView.text = barcode
-//    }
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        let barCodeViewController: QR = segue.destinationViewController as! QR
-//        barCodeViewController.delegate = self
-//    }
+    //    func barcodeReaded(barcode:String){
+    //            print("barcode: \(barcode)")
+    //        codeTextView.text = barcode
+    //    }
+    //    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    //        let barCodeViewController: QR = segue.destinationViewController as! QR
+    //        barCodeViewController.delegate = self
+    //    }
     func configureVideoCapture() {
         let objCaptureDevice = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
         var error:NSError?
@@ -62,8 +64,8 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate{
             let alert = UIAlertController(title: "Device Error", message: "Device not Supported for this Application", preferredStyle: .Alert)
             alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
             presentViewController(alert, animated: true, completion: nil)
-//            let alertView:UIAlertView = UIAlertView(title: "Device Error", message:"Device not Supported for this Application", delegate: nil, cancelButtonTitle: "Ok Done")
-//            alertView.show()
+            //            let alertView:UIAlertView = UIAlertView(title: "Device Error", message:"Device not Supported for this Application", delegate: nil, cancelButtonTitle: "Ok Done")
+            //            alertView.show()
             return
         }
         objCaptureSession = AVCaptureSession()
@@ -77,10 +79,14 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate{
     {
         objCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: objCaptureSession)
         objCaptureVideoPreviewLayer?.videoGravity = AVLayerVideoGravityResizeAspectFill
-        objCaptureVideoPreviewLayer?.frame = view.layer.bounds
+        let frame = CGRect(origin: CGPointZero, size: CGSize(width: view.layer.bounds.width, height: view.layer.bounds.height - 30))
+        objCaptureVideoPreviewLayer?.frame = frame
         self.view.layer.addSublayer(objCaptureVideoPreviewLayer!)
         objCaptureSession?.startRunning()
+        self.view.bringSubviewToFront(lblQRCodeResult)
+        self.view.bringSubviewToFront(lblQRCodeLabel)
     }
+    
     func initializeQRView() {
         vwQRCode = UIView()
         vwQRCode?.layer.borderColor = UIColor.redColor().CGColor
@@ -104,6 +110,7 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate{
         }
     }
     
-   
-   
+    
+    
+    
 }
