@@ -30,10 +30,10 @@
                                 <size key="shadowOffset" width="0.0" height="-17"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jz-Ho-7WB">
-                                <rect key="frame" x="0.0" y="417" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="422" width="600" height="130"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="115" id="aNH-CK-9fU"/>
+                                    <constraint firstAttribute="height" constant="130" id="aNH-CK-9fU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,13 +46,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ra4-6d-0zr">
-                                <rect key="frame" x="20" y="428" width="560" height="90"/>
+                                <rect key="frame" x="20" y="425" width="560" height="120"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3mF-d1-HiP">
-                                        <rect key="frame" x="0.0" y="0.0" width="480" height="90"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="460" height="120"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shell California St" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQY-Za-wsr">
-                                                <rect key="frame" x="0.0" y="0.0" width="480" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="460" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="Ywg-zQ-fle"/>
                                                 </constraints>
@@ -61,7 +61,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idl-wQ-BGV">
-                                                <rect key="frame" x="0.0" y="30" width="480" height="60"/>
+                                                <rect key="frame" x="0.0" y="30" width="460" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="okk-vR-SJr"/>
                                                 </constraints>
@@ -69,7 +69,7 @@
 San Francisco, CA  94115
 United States
 Close at 11PM</string>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -82,28 +82,30 @@ Close at 11PM</string>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pCr-sI-VQu">
-                                        <rect key="frame" x="480" y="0.0" width="80" height="90"/>
+                                        <rect key="frame" x="460" y="0.0" width="100" height="120"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="turn-right-sign" translatesAutoresizingMaskIntoConstraints="NO" id="6jQ-E2-IFK">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="90"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="8A7-S0-uQZ"/>
-                                                    <constraint firstAttribute="height" constant="60" id="PNI-rK-Sqt"/>
+                                                    <constraint firstAttribute="width" constant="100" id="8A7-S0-uQZ"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 mins away" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwo-1X-dYz">
-                                                <rect key="frame" x="0.0" y="60" width="80" height="30"/>
+                                                <rect key="frame" x="0.0" y="90" width="100" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="Iep-bW-2p5"/>
-                                                    <constraint firstAttribute="width" constant="80" id="rVC-A9-PSw"/>
+                                                    <constraint firstAttribute="width" constant="100" id="rVC-A9-PSw"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="UaK-2h-uXV"/>
+                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FUx-oM-KnQ">
                                 <rect key="frame" x="238" y="80" width="124" height="110"/>
@@ -145,13 +147,13 @@ Close at 11PM</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="67.21 gal" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZo-HE-Cg0">
-                                <rect key="frame" x="212" y="250" width="176" height="167"/>
+                                <rect key="frame" x="212" y="250" width="176" height="172"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
                                 <color key="textColor" red="0.87058823529999996" green="0.1137254902" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PPG: $2.43" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1e-Ic-ZDk">
-                                <rect key="frame" x="256" y="356" width="88" height="21"/>
+                                <rect key="frame" x="256" y="361" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.87450980389999999" green="0.1450980392" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -183,14 +185,14 @@ Close at 11PM</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJj-1d-GPy">
-                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
                                 <color key="backgroundColor" red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="4Rc-FQ-LVV"/>
+                                    <constraint firstAttribute="height" constant="50" id="4Rc-FQ-LVV"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name=".SFNSDisplay-Regular" family=".SF NS Display" pointSize="24"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay-Regular" family=".SF NS Display" pointSize="18"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="SCAN"/>
+                                <state key="normal" title="Scan"/>
                                 <connections>
                                     <segue destination="5Oq-zG-quF" kind="show" id="UAg-hU-MKG"/>
                                 </connections>
@@ -207,7 +209,7 @@ Close at 11PM</string>
                             <constraint firstItem="rA2-gc-lBP" firstAttribute="top" secondItem="Ofx-B0-WD6" secondAttribute="bottom" constant="-150" id="FqK-xA-brw"/>
                             <constraint firstItem="ydJ-ON-w1Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gns-D2-zy0"/>
                             <constraint firstItem="fZo-HE-Cg0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Hd2-xf-68j"/>
-                            <constraint firstItem="EJj-1d-GPy" firstAttribute="top" secondItem="Ra4-6d-0zr" secondAttribute="bottom" constant="12" id="HtM-vD-i98"/>
+                            <constraint firstItem="EJj-1d-GPy" firstAttribute="top" secondItem="Ra4-6d-0zr" secondAttribute="bottom" constant="5" id="HtM-vD-i98"/>
                             <constraint firstItem="rA2-gc-lBP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IFu-Pc-TW7"/>
                             <constraint firstAttribute="trailing" secondItem="rA2-gc-lBP" secondAttribute="trailing" id="Mb7-wW-4yU"/>
                             <constraint firstItem="7jz-Ho-7WB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OhQ-GX-KXj"/>
@@ -315,15 +317,15 @@ Close at 11PM</string>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3q-Tb-l5N">
-                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
                                 <color key="backgroundColor" red="0.25401583709999997" green="0.25401583709999997" blue="0.25401583709999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="302" id="bPl-AS-csm"/>
-                                    <constraint firstAttribute="height" constant="70" id="nZT-xG-Cgf"/>
+                                    <constraint firstAttribute="height" constant="50" id="nZT-xG-Cgf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="START"/>
+                                <state key="normal" title="Start"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="bPl-AS-csm"/>
@@ -476,13 +478,13 @@ Close at 11PM</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5w-x4-pWd">
-                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
                                 <color key="backgroundColor" red="0.25401583709999997" green="0.25401583709999997" blue="0.25401583709999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="Fg4-ek-hEK"/>
+                                    <constraint firstAttribute="height" constant="50" id="Fg4-ek-hEK"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="FINISH">
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Finish">
                                     <color key="titleColor" red="0.98883544999999995" green="1" blue="0.98935979070000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
