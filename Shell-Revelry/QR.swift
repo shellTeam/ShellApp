@@ -105,8 +105,19 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             let objBarCode = objCaptureVideoPreviewLayer?.transformedMetadataObjectForMetadataObject(objMetadataMachineReadableCodeObject as AVMetadataMachineReadableCodeObject) as! AVMetadataMachineReadableCodeObject
             vwQRCode?.frame = objBarCode.bounds;
             if objMetadataMachineReadableCodeObject.stringValue != nil {
-                lblQRCodeResult.text = objMetadataMachineReadableCodeObject.stringValue
-            }
+                // here a valid PUMP QRCode perform segue, else alert for invalid QRCode
+//                lblQRCodeResult.text = objMetadataMachineReadableCodeObject.stringValue
+                lblQRCodeResult.text = DEFAULT_PUM_UID
+                objCaptureSession?.stopRunning()
+                performSegueWithIdentifier("readyToPump", sender: nil)
+
+            }else{
+                let alert = UIAlertController(title: "Device Error", message: "Invalid Code Please Scan your Friendly Shell Pump⛽", preferredStyle: .Alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+                presentViewController(alert, animated: true, completion: nil)
+                objCaptureSession?.startRunning()
+
+                }
         }
     }
     

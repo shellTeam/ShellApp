@@ -103,11 +103,38 @@
                     <connections>
                         <outlet property="lblQRCodeLabel" destination="teV-WG-ZHY" id="4mR-8g-aBz"/>
                         <outlet property="lblQRCodeResult" destination="3sV-PV-i2y" id="2ym-3W-L6L"/>
+                        <segue destination="gTL-hR-6Hu" kind="show" identifier="readyToPump" id="Mkb-ly-MxZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="77I-We-Aox" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1638.5" y="389.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hTi-AQ-iIn">
+            <objects>
+                <viewController id="gTL-hR-6Hu" customClass="ViewController" customModule="Shell_Revelry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tGk-Kh-dCb"/>
+                        <viewControllerLayoutGuide type="bottom" id="CHN-XB-U39"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pej-yY-nk9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congrats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7M-Jq-whp">
+                                <rect key="frame" x="152" y="287" width="71" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t5Q-ME-Kcd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2198" y="371"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Tw6-qV-Wrg">
