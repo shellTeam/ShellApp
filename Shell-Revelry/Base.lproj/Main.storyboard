@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -66,31 +67,60 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shell California St" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQY-Za-wsr">
-                                <rect key="frame" x="20" y="425" width="191" height="32"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
-                                <color key="textColor" red="0.87058823529411766" green="0.11372549019607843" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="turn-right-sign" translatesAutoresizingMaskIntoConstraints="NO" id="6jQ-E2-IFK">
-                                <rect key="frame" x="475" y="417" width="105" height="87"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idl-wQ-BGV">
-                                <rect key="frame" x="20" y="463" width="192" height="59"/>
-                                <string key="text">2501 California St
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3mF-d1-HiP">
+                                <rect key="frame" x="20" y="433" width="191" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Shell California St" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQY-Za-wsr">
+                                        <rect key="frame" x="0.0" y="0.0" width="191" height="34"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                        <color key="textColor" red="0.87058823529411766" green="0.11372549019607843" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idl-wQ-BGV">
+                                        <rect key="frame" x="0.0" y="34" width="191" height="56"/>
+                                        <string key="text">2501 California St
 San Francisco, CA  94115
 United States
 Close at 11PM</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Idl-wQ-BGV" firstAttribute="leading" secondItem="3mF-d1-HiP" secondAttribute="leadingMargin" id="Iwo-VA-d2E"/>
+                                    <constraint firstAttribute="height" constant="90" id="d1t-ck-emA"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pCr-sI-VQu">
+                                <rect key="frame" x="500" y="431" width="80" height="88"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="turn-right-sign" translatesAutoresizingMaskIntoConstraints="NO" id="6jQ-E2-IFK">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="67"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="8A7-S0-uQZ"/>
+                                            <constraint firstAttribute="height" constant="67" id="PNI-rK-Sqt"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="20 mins away" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwo-1X-dYz">
+                                        <rect key="frame" x="0.0" y="67" width="80" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Iep-bW-2p5"/>
+                                            <constraint firstAttribute="width" constant="80" id="rVC-A9-PSw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.98431372549019602" green="0.80784313725490198" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="EJj-1d-GPy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3Yf-AC-qnR"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EJj-1d-GPy" secondAttribute="bottom" id="Bxa-WC-FPP"/>
                             <constraint firstItem="7jz-Ho-7WB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OhQ-GX-KXj"/>
+                            <constraint firstItem="EJj-1d-GPy" firstAttribute="top" secondItem="3mF-d1-HiP" secondAttribute="bottom" constant="12" id="PEp-t8-MBj"/>
                             <constraint firstAttribute="trailing" secondItem="EJj-1d-GPy" secondAttribute="trailing" id="Raz-Eh-S9K"/>
                             <constraint firstAttribute="trailing" secondItem="7jz-Ho-7WB" secondAttribute="trailing" id="ddt-iK-N9c"/>
                             <constraint firstItem="EJj-1d-GPy" firstAttribute="top" secondItem="7jz-Ho-7WB" secondAttribute="bottom" constant="-2" id="gJe-as-qeN"/>
