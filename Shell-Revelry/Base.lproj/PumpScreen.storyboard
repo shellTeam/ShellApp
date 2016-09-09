@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SX3-iK-20V">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="A9a-sp-CWC">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="2390" y="389"/>
         </scene>
-        <!--View Controller-->
+        <!--Intro Screen-->
         <scene sceneID="YGJ-pN-7VD">
             <objects>
-                <viewController id="A9a-sp-CWC" sceneMemberID="viewController">
+                <viewController id="A9a-sp-CWC" customClass="IntroScreen" customModule="Shell_Revelry" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rjw-k9-woR"/>
                         <viewControllerLayoutGuide type="bottom" id="bCu-Ym-ry6"/>
@@ -126,6 +126,9 @@
                             <constraint firstItem="eeR-cB-6eg" firstAttribute="leading" secondItem="dqm-CW-GVf" secondAttribute="leadingMargin" constant="-3" id="vpR-6l-SEG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="RevelLogo" destination="8B7-Yk-dPU" id="X1b-in-ahR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Np8-og-XqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
