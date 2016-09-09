@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04D1C8D41D828F2C00720488 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1C8D31D828F2C00720488 /* Constant.swift */; };
+		161084C21D82E06F004BABEF /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161084C11D82E06F004BABEF /* MapView.storyboard */; };
+		161084C41D82E07F004BABEF /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161084C31D82E07F004BABEF /* MapController.swift */; };
 		16A0FC501D826F2E0019E71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC4F1D826F2E0019E71B /* AppDelegate.swift */; };
 		16A0FC521D826F2E0019E71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC511D826F2E0019E71B /* ViewController.swift */; };
 		16A0FC551D826F2E0019E71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A0FC531D826F2E0019E71B /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		04D1C8D31D828F2C00720488 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		161084C11D82E06F004BABEF /* MapView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		161084C31D82E07F004BABEF /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		16A0FC4C1D826F2E0019E71B /* Shell-Revelry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shell-Revelry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A0FC4F1D826F2E0019E71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16A0FC511D826F2E0019E71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				16A0FC511D826F2E0019E71B /* ViewController.swift */,
 				16A0FC531D826F2E0019E71B /* Main.storyboard */,
 				6EA5B3BD1D82C44D002F35B5 /* PumpScreen.storyboard */,
+				161084C31D82E07F004BABEF /* MapController.swift */,
+				161084C11D82E06F004BABEF /* MapView.storyboard */,
 				DD3E49B21D82D654009A8F41 /* IntroScreen.swift */,
 				16E747B01D827C7800A62294 /* QR.swift */,
 				16A0FC591D826F2E0019E71B /* Assets.xcassets */,
@@ -300,6 +306,7 @@
 				16A0FC5D1D826F2E0019E71B /* LaunchScreen.storyboard in Resources */,
 				16A0FC5A1D826F2E0019E71B /* Assets.xcassets in Resources */,
 				6EA5B3BF1D82C44D002F35B5 /* PumpScreen.storyboard in Resources */,
+				161084C21D82E06F004BABEF /* MapView.storyboard in Resources */,
 				16A0FC551D826F2E0019E71B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A0FC581D826F2E0019E71B /* Shell_Revelry.xcdatamodeld in Sources */,
+				161084C41D82E07F004BABEF /* MapController.swift in Sources */,
 				16A0FC521D826F2E0019E71B /* ViewController.swift in Sources */,
 				04D1C8D41D828F2C00720488 /* Constant.swift in Sources */,
 				16E747B11D827C7800A62294 /* QR.swift in Sources */,

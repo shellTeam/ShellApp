@@ -14,6 +14,10 @@
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>Privacy - Location When In Use Usage Description</key>
+	<string>ShellMate</string>
+	<key>NSLocationAlwaysUsageDesciption</key>
+	<string>ShellMate</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleSignature</key>

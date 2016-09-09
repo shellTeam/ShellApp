@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Map Controller-->
+        <scene sceneID="GaT-4q-Ldw">
+            <objects>
+                <viewController storyboardIdentifier="MapController" id="809-Eb-XDM" customClass="MapController" customModule="Shell_Revelry" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A1s-2G-iAo"/>
+                        <viewControllerLayoutGuide type="bottom" id="u65-vY-ME6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jp2-UE-FED">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRe-Rg-1KW">
+                                <rect key="frame" x="0.0" y="530" width="600" height="70"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="PpJ-sK-EYn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="NAVIGATE ME">
+                                    <color key="titleColor" red="0.9888354500119666" green="1" blue="0.98935979069569391" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ShellMate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Otx-9w-n8Q">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="ovz-bS-z8N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sBN-id-ldy">
+                                <rect key="frame" x="0.0" y="93" width="600" height="439"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sBN-id-ldy" firstAttribute="top" secondItem="Otx-9w-n8Q" secondAttribute="bottom" constant="-3" id="FSH-sY-i8R"/>
+                            <constraint firstItem="u65-vY-ME6" firstAttribute="top" secondItem="BRe-Rg-1KW" secondAttribute="bottom" id="H5s-qh-kTB"/>
+                            <constraint firstItem="Otx-9w-n8Q" firstAttribute="top" secondItem="Jp2-UE-FED" secondAttribute="top" id="MUd-DM-gGR"/>
+                            <constraint firstItem="BRe-Rg-1KW" firstAttribute="top" secondItem="sBN-id-ldy" secondAttribute="bottom" constant="-2" id="T2c-rC-ZmX"/>
+                            <constraint firstAttribute="trailing" secondItem="Otx-9w-n8Q" secondAttribute="trailing" id="X6E-4j-eVb"/>
+                            <constraint firstItem="BRe-Rg-1KW" firstAttribute="leading" secondItem="Jp2-UE-FED" secondAttribute="leading" id="bGm-xp-Sxm"/>
+                            <constraint firstItem="Otx-9w-n8Q" firstAttribute="leading" secondItem="Jp2-UE-FED" secondAttribute="leading" id="i8s-wO-zXe"/>
+                            <constraint firstAttribute="trailing" secondItem="BRe-Rg-1KW" secondAttribute="trailing" id="kTR-aF-JyT"/>
+                            <constraint firstItem="sBN-id-ldy" firstAttribute="leading" secondItem="Jp2-UE-FED" secondAttribute="leading" id="kqe-EW-4TK"/>
+                            <constraint firstAttribute="trailing" secondItem="sBN-id-ldy" secondAttribute="trailing" id="lhb-Rh-Cq9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="sBN-id-ldy" id="hLd-H0-bKl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T7A-ab-rVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502" y="486"/>
+        </scene>
+    </scenes>
+</document>
