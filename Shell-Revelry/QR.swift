@@ -111,7 +111,8 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
 //                lblQRCodeResult.text = objMetadataMachineReadableCodeObject.stringValue
                 lblQRCodeResult.text = DEFAULT_PUM_UID
                 objCaptureSession?.stopRunning()
-                performSegueWithIdentifier("readyToPump", sender: nil)
+                performSegueWithIdentifier("showPumpScreen", sender: nil)
+                
 
             }else{
                 let alert = UIAlertController(title: "Device Error", message: "Invalid Code Please Scan your Friendly Shell Pump⛽", preferredStyle: .Alert)
@@ -120,10 +121,15 @@ class QR: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
                 objCaptureSession?.startRunning()
 
                 }
+            
         }
     }
     
     
     
-    
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        if segue.identifier == "showPumpScreen" {
+//            
+//        }
+//    }
 }
