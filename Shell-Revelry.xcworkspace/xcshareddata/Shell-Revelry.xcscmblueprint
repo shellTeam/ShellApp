@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++85C3C58",
+=======
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++9E779AA",
+>>>>>>> 4109e317b6a66e411ddb2b0c2c3290bde666d30c
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+<<<<<<< HEAD
     "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++E03CA25" : 0,
     "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++EA10444" : 0,
     "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++85C3C58" : 0
@@ -13,6 +18,17 @@
     "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++E03CA25" : "",
     "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++EA10444" : "",
     "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++85C3C58" : "ShellApp\/"
+=======
+    "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++5BA83CE" : 0,
+    "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++9E779AA" : 0,
+    "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++C43DF64" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "99C0F471-AD70-4288-B854-E35C2A07ED11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++5BA83CE" : "",
+    "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++9E779AA" : "ShellApp\/",
+    "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++C43DF64" : ""
+>>>>>>> 4109e317b6a66e411ddb2b0c2c3290bde666d30c
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Shell-Revelry",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -21,17 +37,29 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shellTeam\/ShellApp.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+<<<<<<< HEAD
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++85C3C58"
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++5BA83CE"
+>>>>>>> 4109e317b6a66e411ddb2b0c2c3290bde666d30c
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shellTeam\/ShellApp.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+<<<<<<< HEAD
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++E03CA25"
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++9E779AA"
+>>>>>>> 4109e317b6a66e411ddb2b0c2c3290bde666d30c
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shellTeam\/ShellApp.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+<<<<<<< HEAD
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++EA10444"
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AEE824C432E6094A9F0DA3BCE365BEA890C1F02+++C43DF64"
+>>>>>>> 4109e317b6a66e411ddb2b0c2c3290bde666d30c
     }
   ]
 }
