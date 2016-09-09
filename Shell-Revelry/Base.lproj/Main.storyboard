@@ -279,6 +279,7 @@ Close at 11PM</string>
                         <outlet property="lblQRCodeLabel" destination="teV-WG-ZHY" id="4mR-8g-aBz"/>
                         <outlet property="lblQRCodeResult" destination="3sV-PV-i2y" id="2ym-3W-L6L"/>
                         <segue destination="IbD-wR-WLe" kind="show" identifier="readyToPump" id="Mkb-ly-MxZ"/>
+                        <segue destination="IbD-wR-WLe" kind="showDetail" identifier="showPumpScreen" id="HJg-q2-xyI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="77I-We-Aox" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -309,7 +310,7 @@ Close at 11PM</string>
                 <viewControllerPlaceholder storyboardName="PumpScreen" id="IbD-wR-WLe" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OfL-ZB-87t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2600" y="759"/>
+            <point key="canvasLocation" x="2468.5" y="1163"/>
         </scene>
     </scenes>
     <resources>
@@ -317,4 +318,7 @@ Close at 11PM</string>
         <image name="Shellmate" width="122" height="18"/>
         <image name="turn-right-sign" width="512" height="512"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="HJg-q2-xyI"/>
+    </inferredMetricsTieBreakers>
 </document>
