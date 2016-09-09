@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BABCBAEB271432FCFEF68D6B7A0DDAC /* Pods-Shell-RevelryUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 388A5359326E9154C7C7F85969DD2A5A /* Pods-Shell-RevelryUITests-dummy.m */; };
+		1A1E514C6B7E03DA72091D1EFA412F64 /* Pods-Shell-RevelryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8053AFF39130C7E566E28023ECC436A /* Pods-Shell-RevelryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620F6977555C8EC4A44A121502D24787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		660EBB3ADECD29B6997476DFFBEECBD2 /* Pods-Shell-RevelryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E073E8F55855758C3FFCF3A0797BC6 /* Pods-Shell-RevelryTests-dummy.m */; };
+		7CFCAD60544A2A3318D6184EB5D12514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		920160C8B827A3A2A1519D3152B5B652 /* Pods-Shell-Revelry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56E572F5E05A4664BD24487127DD54 /* Pods-Shell-Revelry-dummy.m */; };
+		A2E4B605AC8CA83592593AD4C433512F /* Pods-Shell-Revelry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DACC47F521A13D65B82826AF326115 /* Pods-Shell-Revelry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B537BD50E187EC8728D3CF8A86F72AC0 /* Pods-Shell-RevelryUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD05909E847D2F4CF7365C5177526BFE /* Pods-Shell-RevelryUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9540791A7C03704F9B81D7053FB2043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005C4BD1609D6C0B3253747D1535497C /* Pods-Shell-RevelryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shell-RevelryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		151DF2115EDC65337D950506E825348A /* Pods-Shell-RevelryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shell-RevelryTests.modulemap"; sourceTree = "<group>"; };
+		2121FD89E7CD9039D81183DEE07BDAD1 /* Pods-Shell-Revelry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shell-Revelry.debug.xcconfig"; sourceTree = "<group>"; };
+		346065FFE72552E8BBD173B92C96FD4D /* Pods-Shell-RevelryUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shell-RevelryUITests-resources.sh"; sourceTree = "<group>"; };
+		37AF0212F57C3BE983629DE509C54A25 /* Pods-Shell-RevelryUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shell-RevelryUITests.modulemap"; sourceTree = "<group>"; };
+		38788A05219BBC8257862F3A2ECDE729 /* Pods-Shell-RevelryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shell-RevelryTests.release.xcconfig"; sourceTree = "<group>"; };
+		388A5359326E9154C7C7F85969DD2A5A /* Pods-Shell-RevelryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shell-RevelryUITests-dummy.m"; sourceTree = "<group>"; };
+		395C64AACCBD3E04A473F6DC1267FE8F /* Pods-Shell-RevelryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shell-RevelryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E7E74387A6805677B7A46AA3C59CBF7 /* Pods-Shell-RevelryUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shell-RevelryUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E04CDC47915D16C4D603595D0A4F031 /* Pods-Shell-RevelryTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shell-RevelryTests-frameworks.sh"; sourceTree = "<group>"; };
+		7051BB867C9237FC4513ABF741E696D4 /* Pods-Shell-Revelry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shell-Revelry.release.xcconfig"; sourceTree = "<group>"; };
+		7A5362310DCB351D39BDC308281A7A6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889772D9D44738A8625A45EA26899098 /* Pods-Shell-RevelryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shell-RevelryTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91C90CB794321E0D844B7A344D551602 /* Pods_Shell_RevelryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shell_RevelryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9484A323A2AA6B96EF1897B6B38BB8EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948626931EE2ADF2E8513E403C378FB3 /* Pods-Shell-RevelryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shell-RevelryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		988067946777909BD10BD43CA5876F23 /* Pods_Shell_RevelryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shell_RevelryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A56E572F5E05A4664BD24487127DD54 /* Pods-Shell-Revelry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shell-Revelry-dummy.m"; sourceTree = "<group>"; };
+		A31B05D15B8088E964980DF7C715C656 /* Pods-Shell-Revelry-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shell-Revelry-resources.sh"; sourceTree = "<group>"; };
+		A8053AFF39130C7E566E28023ECC436A /* Pods-Shell-RevelryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shell-RevelryTests-umbrella.h"; sourceTree = "<group>"; };
+		AA66981FD76C866FA25BBFA4CB2C7C64 /* Pods-Shell-RevelryTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shell-RevelryTests-resources.sh"; sourceTree = "<group>"; };
+		B1A8516F4FDD63EE0A4684FA8C3459AC /* Pods-Shell-Revelry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shell-Revelry-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4DACC47F521A13D65B82826AF326115 /* Pods-Shell-Revelry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shell-Revelry-umbrella.h"; sourceTree = "<group>"; };
+		C0E502E70B1F2F93914219FAE6E4620B /* Pods-Shell-RevelryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shell-RevelryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1E073E8F55855758C3FFCF3A0797BC6 /* Pods-Shell-RevelryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shell-RevelryTests-dummy.m"; sourceTree = "<group>"; };
+		C5CC4C5E9AE02ACDDB110DAB55BE9F9A /* Pods-Shell-Revelry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shell-Revelry-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE7C3E77B1245120B695FAA0E8DAAE45 /* Pods-Shell-RevelryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shell-RevelryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3CD5C066F6DBEA61D6D432E728884E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EA3904180DD881DE73259BD187DE40 /* Pods-Shell-Revelry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shell-Revelry.modulemap"; sourceTree = "<group>"; };
+		FABF3FEF6D0632352AE107372874081E /* Pods-Shell-RevelryUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shell-RevelryUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FD05909E847D2F4CF7365C5177526BFE /* Pods-Shell-RevelryUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shell-RevelryUITests-umbrella.h"; sourceTree = "<group>"; };
+		FF2015F34D1EC3FB1B9FE50E86E60BBD /* Pods-Shell-Revelry-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shell-Revelry-frameworks.sh"; sourceTree = "<group>"; };
+		FF473EFAFF079ACA1D42C079011DBFEC /* Pods_Shell_Revelry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shell_Revelry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A925EB9F4379BFE2D5C3FB6B99AC583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9540791A7C03704F9B81D7053FB2043 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98606E1B527B2AE7973D75F7CE3A2587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620F6977555C8EC4A44A121502D24787 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC16CAE658EDD13DB8402FB7E8E31CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFCAD60544A2A3318D6184EB5D12514 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3D3846DC09A8B2F2638030FA6AEF52 /* Pods-Shell-RevelryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9484A323A2AA6B96EF1897B6B38BB8EE /* Info.plist */,
+				37AF0212F57C3BE983629DE509C54A25 /* Pods-Shell-RevelryUITests.modulemap */,
+				4E7E74387A6805677B7A46AA3C59CBF7 /* Pods-Shell-RevelryUITests-acknowledgements.markdown */,
+				DE7C3E77B1245120B695FAA0E8DAAE45 /* Pods-Shell-RevelryUITests-acknowledgements.plist */,
+				388A5359326E9154C7C7F85969DD2A5A /* Pods-Shell-RevelryUITests-dummy.m */,
+				FABF3FEF6D0632352AE107372874081E /* Pods-Shell-RevelryUITests-frameworks.sh */,
+				346065FFE72552E8BBD173B92C96FD4D /* Pods-Shell-RevelryUITests-resources.sh */,
+				FD05909E847D2F4CF7365C5177526BFE /* Pods-Shell-RevelryUITests-umbrella.h */,
+				948626931EE2ADF2E8513E403C378FB3 /* Pods-Shell-RevelryUITests.debug.xcconfig */,
+				005C4BD1609D6C0B3253747D1535497C /* Pods-Shell-RevelryUITests.release.xcconfig */,
+			);
+			name = "Pods-Shell-RevelryUITests";
+			path = "Target Support Files/Pods-Shell-RevelryUITests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				97B29E8612AD7EED34BB80C601187A39 /* Products */,
+				9FB25AE4BD7908A29B5FBE74E14B2571 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A68639C1D2B10268D514B4C992266EA /* Pods-Shell-RevelryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A5362310DCB351D39BDC308281A7A6C /* Info.plist */,
+				151DF2115EDC65337D950506E825348A /* Pods-Shell-RevelryTests.modulemap */,
+				C0E502E70B1F2F93914219FAE6E4620B /* Pods-Shell-RevelryTests-acknowledgements.markdown */,
+				889772D9D44738A8625A45EA26899098 /* Pods-Shell-RevelryTests-acknowledgements.plist */,
+				C1E073E8F55855758C3FFCF3A0797BC6 /* Pods-Shell-RevelryTests-dummy.m */,
+				6E04CDC47915D16C4D603595D0A4F031 /* Pods-Shell-RevelryTests-frameworks.sh */,
+				AA66981FD76C866FA25BBFA4CB2C7C64 /* Pods-Shell-RevelryTests-resources.sh */,
+				A8053AFF39130C7E566E28023ECC436A /* Pods-Shell-RevelryTests-umbrella.h */,
+				395C64AACCBD3E04A473F6DC1267FE8F /* Pods-Shell-RevelryTests.debug.xcconfig */,
+				38788A05219BBC8257862F3A2ECDE729 /* Pods-Shell-RevelryTests.release.xcconfig */,
+			);
+			name = "Pods-Shell-RevelryTests";
+			path = "Target Support Files/Pods-Shell-RevelryTests";
+			sourceTree = "<group>";
+		};
+		8D1CFB5E62F04D30ECD9E7117A15C146 /* Pods-Shell-Revelry */ = {
+			isa = PBXGroup;
+			children = (
+				E3CD5C066F6DBEA61D6D432E728884E5 /* Info.plist */,
+				E9EA3904180DD881DE73259BD187DE40 /* Pods-Shell-Revelry.modulemap */,
+				C5CC4C5E9AE02ACDDB110DAB55BE9F9A /* Pods-Shell-Revelry-acknowledgements.markdown */,
+				B1A8516F4FDD63EE0A4684FA8C3459AC /* Pods-Shell-Revelry-acknowledgements.plist */,
+				9A56E572F5E05A4664BD24487127DD54 /* Pods-Shell-Revelry-dummy.m */,
+				FF2015F34D1EC3FB1B9FE50E86E60BBD /* Pods-Shell-Revelry-frameworks.sh */,
+				A31B05D15B8088E964980DF7C715C656 /* Pods-Shell-Revelry-resources.sh */,
+				B4DACC47F521A13D65B82826AF326115 /* Pods-Shell-Revelry-umbrella.h */,
+				2121FD89E7CD9039D81183DEE07BDAD1 /* Pods-Shell-Revelry.debug.xcconfig */,
+				7051BB867C9237FC4513ABF741E696D4 /* Pods-Shell-Revelry.release.xcconfig */,
+			);
+			name = "Pods-Shell-Revelry";
+			path = "Target Support Files/Pods-Shell-Revelry";
+			sourceTree = "<group>";
+		};
+		97B29E8612AD7EED34BB80C601187A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF473EFAFF079ACA1D42C079011DBFEC /* Pods_Shell_Revelry.framework */,
+				91C90CB794321E0D844B7A344D551602 /* Pods_Shell_RevelryTests.framework */,
+				988067946777909BD10BD43CA5876F23 /* Pods_Shell_RevelryUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB25AE4BD7908A29B5FBE74E14B2571 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D1CFB5E62F04D30ECD9E7117A15C146 /* Pods-Shell-Revelry */,
+				8A68639C1D2B10268D514B4C992266EA /* Pods-Shell-RevelryTests */,
+				2C3D3846DC09A8B2F2638030FA6AEF52 /* Pods-Shell-RevelryUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33AC82318F904759A856AABE964D5BD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E4B605AC8CA83592593AD4C433512F /* Pods-Shell-Revelry-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F4E98AF59848A40DF4EFDFE50344B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B537BD50E187EC8728D3CF8A86F72AC0 /* Pods-Shell-RevelryUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC87287FA13CAE2C71FCBF9BEEAF0114 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1E514C6B7E03DA72091D1EFA412F64 /* Pods-Shell-RevelryTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		199C666767B24F8366A8CD74416A3737 /* Pods-Shell-RevelryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E147AED09037BE7BDA5487C5BDECEB /* Build configuration list for PBXNativeTarget "Pods-Shell-RevelryTests" */;
+			buildPhases = (
+				FB05B88490558685B9FF27C4AAC21CAB /* Sources */,
+				7A925EB9F4379BFE2D5C3FB6B99AC583 /* Frameworks */,
+				CC87287FA13CAE2C71FCBF9BEEAF0114 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Shell-RevelryTests";
+			productName = "Pods-Shell-RevelryTests";
+			productReference = 91C90CB794321E0D844B7A344D551602 /* Pods_Shell_RevelryTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D72DD9638E61EC2392D91CD3169F898 /* Pods-Shell-Revelry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21BB8C8B0928B8DD2A3BFC5CA1F0FE1 /* Build configuration list for PBXNativeTarget "Pods-Shell-Revelry" */;
+			buildPhases = (
+				18D369145F3EB9ABE933B34E0A736D25 /* Sources */,
+				DC16CAE658EDD13DB8402FB7E8E31CE4 /* Frameworks */,
+				33AC82318F904759A856AABE964D5BD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Shell-Revelry";
+			productName = "Pods-Shell-Revelry";
+			productReference = FF473EFAFF079ACA1D42C079011DBFEC /* Pods_Shell_Revelry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87A858F34DAC30EDD912D6561EBC826F /* Pods-Shell-RevelryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544FA79E909B1CC2F72A2E43147D6C24 /* Build configuration list for PBXNativeTarget "Pods-Shell-RevelryUITests" */;
+			buildPhases = (
+				500D92BC096671439AF28FE8B71487D9 /* Sources */,
+				98606E1B527B2AE7973D75F7CE3A2587 /* Frameworks */,
+				71F4E98AF59848A40DF4EFDFE50344B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Shell-RevelryUITests";
+			productName = "Pods-Shell-RevelryUITests";
+			productReference = 988067946777909BD10BD43CA5876F23 /* Pods_Shell_RevelryUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 97B29E8612AD7EED34BB80C601187A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D72DD9638E61EC2392D91CD3169F898 /* Pods-Shell-Revelry */,
+				199C666767B24F8366A8CD74416A3737 /* Pods-Shell-RevelryTests */,
+				87A858F34DAC30EDD912D6561EBC826F /* Pods-Shell-RevelryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D369145F3EB9ABE933B34E0A736D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920160C8B827A3A2A1519D3152B5B652 /* Pods-Shell-Revelry-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500D92BC096671439AF28FE8B71487D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BABCBAEB271432FCFEF68D6B7A0DDAC /* Pods-Shell-RevelryUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB05B88490558685B9FF27C4AAC21CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660EBB3ADECD29B6997476DFFBEECBD2 /* Pods-Shell-RevelryTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B1518E72AE6CE800CDF136BA6748B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38788A05219BBC8257862F3A2ECDE729 /* Pods-Shell-RevelryTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shell-RevelryTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shell-RevelryTests/Pods-Shell-RevelryTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shell_RevelryTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		727DC167D5A9BC186E4A95DD90ED20FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005C4BD1609D6C0B3253747D1535497C /* Pods-Shell-RevelryUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shell-RevelryUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shell-RevelryUITests/Pods-Shell-RevelryUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shell_RevelryUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90E624A5D35AB2E400C95475BC2B9EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2121FD89E7CD9039D81183DEE07BDAD1 /* Pods-Shell-Revelry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shell-Revelry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shell-Revelry/Pods-Shell-Revelry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shell_Revelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F63250E2877C9816117720F3D4564967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948626931EE2ADF2E8513E403C378FB3 /* Pods-Shell-RevelryUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shell-RevelryUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shell-RevelryUITests/Pods-Shell-RevelryUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shell_RevelryUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F97F666D37CDCFF83D6C31C0D90E0F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7051BB867C9237FC4513ABF741E696D4 /* Pods-Shell-Revelry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shell-Revelry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shell-Revelry/Pods-Shell-Revelry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shell_Revelry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA80C6A135FCEBA2FFE2FE1022E5EB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395C64AACCBD3E04A473F6DC1267FE8F /* Pods-Shell-RevelryTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shell-RevelryTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shell-RevelryTests/Pods-Shell-RevelryTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Shell_RevelryTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544FA79E909B1CC2F72A2E43147D6C24 /* Build configuration list for PBXNativeTarget "Pods-Shell-RevelryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63250E2877C9816117720F3D4564967 /* Debug */,
+				727DC167D5A9BC186E4A95DD90ED20FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21BB8C8B0928B8DD2A3BFC5CA1F0FE1 /* Build configuration list for PBXNativeTarget "Pods-Shell-Revelry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E624A5D35AB2E400C95475BC2B9EF6 /* Debug */,
+				F97F666D37CDCFF83D6C31C0D90E0F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E147AED09037BE7BDA5487C5BDECEB /* Build configuration list for PBXNativeTarget "Pods-Shell-RevelryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA80C6A135FCEBA2FFE2FE1022E5EB40 /* Debug */,
+				0B1518E72AE6CE800CDF136BA6748B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
