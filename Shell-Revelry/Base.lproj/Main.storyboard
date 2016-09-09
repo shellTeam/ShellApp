@@ -331,7 +331,7 @@ Close at 11PM</string>
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <segue destination="xV4-cM-TLf" kind="show" id="a50-LB-HFz"/>
+                                    <segue destination="qeB-Vi-S8z" kind="showDetail" id="5R3-ja-uWb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="START" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6an-aJ-1G8">
@@ -392,29 +392,67 @@ Close at 11PM</string>
             </objects>
             <point key="canvasLocation" x="2624" y="1449"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="mjp-jS-T1o">
+        <!--Intro Screen-->
+        <scene sceneID="fhs-WS-bf9">
             <objects>
-                <viewController id="xV4-cM-TLf" sceneMemberID="viewController">
+                <viewController id="qeB-Vi-S8z" customClass="IntroScreen" customModule="Shell_Revelry" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qkh-5O-0ZP"/>
-                        <viewControllerLayoutGuide type="bottom" id="7qB-vQ-Lcx"/>
+                        <viewControllerLayoutGuide type="top" id="Bu7-y2-b2z"/>
+                        <viewControllerLayoutGuide type="bottom" id="oXM-ls-GfW"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="S4H-fu-yEi">
+                    <view key="view" contentMode="scaleToFill" id="cb7-Nr-0HM">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shellmate" translatesAutoresizingMaskIntoConstraints="NO" id="tQx-VW-Jgu">
+                                <rect key="frame" x="46" y="187" width="207" height="62"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shell_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fph-p7-SuJ">
+                                <rect key="frame" x="60" y="55" width="193" height="124"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Powered by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dg0-fo-5pb">
+                                <rect key="frame" x="11" y="303" width="178" height="54"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
+                                <color key="textColor" red="0.34409997170000001" green="0.34409997170000001" blue="0.34409997170000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="revelLogoNoCircleBlue1-e1404942771647" translatesAutoresizingMaskIntoConstraints="NO" id="yOa-ug-qUN">
+                                <rect key="frame" x="130" y="440" width="172" height="103"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stopwatch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIv-oT-u4u">
+                                <rect key="frame" x="404" y="90" width="86" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fueling: Gals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99i-FR-6HJ">
+                                <rect key="frame" x="297" y="77" width="99" height="61"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79551376460000001" blue="0.049626229459999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dg0-fo-5pb" firstAttribute="leading" secondItem="cb7-Nr-0HM" secondAttribute="leadingMargin" constant="-3" id="Ahz-zx-dS4"/>
+                            <constraint firstItem="oXM-ls-GfW" firstAttribute="top" secondItem="Dg0-fo-5pb" secondAttribute="bottom" constant="60" id="SEU-f5-2vf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="RevelLogo" destination="yOa-ug-qUN" id="lpJ-Yl-P53"/>
+                        <outlet property="stopWatchLabel" destination="WIv-oT-u4u" id="Liq-EG-XOv"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LFj-98-4FP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xz4-kd-FVG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3430" y="1449"/>
+            <point key="canvasLocation" x="3376" y="1454"/>
         </scene>
     </scenes>
     <resources>
         <image name="Screen Shot 2016-09-09 at 2.07.42 AM" width="512" height="512"/>
         <image name="Shell_logo" width="829" height="768"/>
         <image name="Shellmate" width="122" height="18"/>
+        <image name="revelLogoNoCircleBlue1-e1404942771647" width="180" height="82"/>
         <image name="turn-right-sign" width="512" height="512"/>
     </resources>
 </document>
