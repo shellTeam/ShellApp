@@ -16,6 +16,7 @@
 		16A0FC681D826F2E0019E71B /* Shell_RevelryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC671D826F2E0019E71B /* Shell_RevelryTests.swift */; };
 		16A0FC731D826F2E0019E71B /* Shell_RevelryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0FC721D826F2E0019E71B /* Shell_RevelryUITests.swift */; };
 		16E747AF1D82785300A62294 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E747AE1D82785300A62294 /* AVFoundation.framework */; };
+		16E747B11D827C7800A62294 /* QR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E747B01D827C7800A62294 /* QR.swift */; };
 		3BF44A9A9EED8BFF254849BA /* Pods_Shell_RevelryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E655FC48846DCF219F5B70EA /* Pods_Shell_RevelryUITests.framework */; };
 		A723D9F325451376D2E1A1CB /* Pods_Shell_RevelryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7815FA47CA5C948AF6BF2E9 /* Pods_Shell_RevelryTests.framework */; };
 		F5068D0990ED95DCEBD31335 /* Pods_Shell_Revelry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96912503BE7BA92AA762629 /* Pods_Shell_Revelry.framework */; };
@@ -54,6 +55,7 @@
 		16A0FC721D826F2E0019E71B /* Shell_RevelryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell_RevelryUITests.swift; sourceTree = "<group>"; };
 		16A0FC741D826F2E0019E71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E747AE1D82785300A62294 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		16E747B01D827C7800A62294 /* QR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QR.swift; sourceTree = "<group>"; };
 		1C3CD9605AD5C11E8CBA894B /* Pods-Shell-Revelry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shell-Revelry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shell-Revelry/Pods-Shell-Revelry.debug.xcconfig"; sourceTree = "<group>"; };
 		3EECBB4AE6C15A26DFC3C21D /* Pods-Shell-RevelryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shell-RevelryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shell-RevelryUITests/Pods-Shell-RevelryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		873CBD316A9056C084763C3F /* Pods-Shell-RevelryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shell-RevelryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shell-RevelryUITests/Pods-Shell-RevelryUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				16A0FC4F1D826F2E0019E71B /* AppDelegate.swift */,
 				16A0FC511D826F2E0019E71B /* ViewController.swift */,
 				16A0FC531D826F2E0019E71B /* Main.storyboard */,
+				16E747B01D827C7800A62294 /* QR.swift */,
 				16A0FC591D826F2E0019E71B /* Assets.xcassets */,
 				16A0FC5B1D826F2E0019E71B /* LaunchScreen.storyboard */,
 				16A0FC5E1D826F2E0019E71B /* Info.plist */,
@@ -437,6 +440,7 @@
 			files = (
 				16A0FC581D826F2E0019E71B /* Shell_Revelry.xcdatamodeld in Sources */,
 				16A0FC521D826F2E0019E71B /* ViewController.swift in Sources */,
+				16E747B11D827C7800A62294 /* QR.swift in Sources */,
 				16A0FC501D826F2E0019E71B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
